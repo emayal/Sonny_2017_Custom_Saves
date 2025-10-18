@@ -4,6 +4,8 @@
 
 ## Hex colors
 
+Note that font colors are not visible in Github. Use any editor with markdown support instead if you want to read it locally, for example VS Code
+
 | Attribute | HEX code |
 | :-------- | :------- |
 | <font color="#f07e7e">**Power**</font>        | <font color="#f07e7e">#f07e7e</font> |
@@ -21,13 +23,12 @@
 | <font color="#9dff61">**Heal**</font>         | <font color="#9dff61">#9dff61</font> |
 | <font color="#14b1ff">**Focus**</font>        | <font color="#14b1ff">#14b1ff</font> |
 
-#14b1ff
-
-#000000	
-#ffffff	
-#e8f086	
-#6fde6e	
-#ff4242	
-#a691ae	
-#235fa4	
-#0a284b	
+Other colors
+- <font color="#000000">#000000</font>	
+- <font color="#ffffff">#ffffff</font>
+- <font color="#e8f086">#e8f086</font>
+- <font color="#6fde6e">#6fde6e</font>
+- <font color="#ff4242">#ff4242</font>
+- <font color="#a691ae">#a691ae</font>
+- <font color="#235fa4">#235fa4</font>
+- <font color="#0a284b">#0a284b</font>
