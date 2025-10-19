@@ -13,7 +13,10 @@ This repository contains all my custom save files, which will work on the vanill
 - In most saves you get different starter abilities, for unit saves it will be their own abilities. You will lose them forever if you remove them or respec, so be careful! Making backups of the save can be a good idea as a replacement for respec.
 - I disabled most tutorials in the game, mostly to make the above issue less painful.
 
-### About alternat
+### About alternate starting strains specifically
+
+- These saves starts with 2 strains unlocked instead of 1. This is because when opening the "Skill" menu, the game automatically shows the <font color="#ff4242">**Physical**</font> strain. To access other strains, you must use the buttons at the bottom of the strain tree. These are only enabled if you have at least 2 strains unlocked. Not being able to access your chosen strain means that it is impossible to unlock and upgrade abilities from it. This is why I provide multiple saves for the same 1st strain, each with a different 2nd strain.
+- Related to above, when picking a strain after beating Corruptor in Zone 2, the picked strain becomes the 3rd strain temporarily. After beating Celestia in Zone 5, you will pick a strain again. The picked strain will replace your first pick after Zone 2 as the new 3rd strain, rather than becoming a 4th strain. This is because the game hard codes the player's maximum amount of strains to 3, and in cases such as this the game simply replaces the latest strain pick. To avoid issues, do not learn abilities from the 3rd strains between Zone 3-5, since your "true" 3rd strain will be picked after Zone 5 as normal.
 
 ### About unit saves specifically (Zone 8)
 
