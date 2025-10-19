@@ -2,17 +2,68 @@
 
 - [Zone 8](./Zone_8/README.md)
 
+## Important stuff!
+
+*Note: My readmes use font colors which are not visible in Github. Use any editor with markdown support instead if you want to read it locally, for example VS Code.*
+
+This repository contains all my custom save files, which will work on the vanilla base game of Sonny (2017). A save converter in the form of a python script is also included, which will convert it to a more "readable" format. 
+
+- As far as I can tell, these custom saves will only work with the Steam version of the game. The iOS and Itch version uses completely different save formats, and I have no clue how the Android saves work (plus, Android version is dead :skull:)
+- In most saves you get different starter abilities, for unit saves it will be their own abilities. You will lose them forever if you remove them or respec, so be careful! Making backups of the save can be a good idea as a replacement for respec.
+- I disabled most tutorials in the game, mostly to make the above issue less painful.
+
+### About unit saves specifically (Zone 8)
+
+- You start with Zone 0 items equipped, because most units except Sonny have poor stats at level 1. Without them, most saves wouldn't be able to beat the very first stage! Starting cash has been reduced ($100 -> $25) to compensate for this.
+- I added Sonny to the party list, because you need to have Sonny active in order to trigger the autowin cutscene against Vendara 1 in Zone 1. Trying to beat the stage normally would otherwise be extremely difficult. Unfortunately, Sonny has no abilities coded as an A.I. unit, so they are useless outside of Vendara 1.
+- Evolution will most likely be disabled on unit saves. It is basically hard coded in the game that only Sonny can use Evolution.
+
 ## Instructions
 
-Place these custom save files in the save folder, and rename them to "SN1_", "SN2_" or "SN3_".
+### Download
 
-Sonny has been added as a party member, because you need to have them active in order to pass Vendara 1 in Zone 1. They do not have any abilities coded as an A.I. unit, so they are basically just a useless meat shield outside of this stage.
+Clone this repo, or use the "Download ZIP" option from the green "Code" button.
 
-save_reader.py is not complete!!!
+### Find the save folder
 
-## Hex colors
+1. Find where your Steam base folder (not install folder!) is located. ([Source](https://www.pcgamingwiki.com/wiki/Glossary:Game_data#Steam_client))
+    - 64-bit Windows: `C:\Program Files (x86)\Steam`
+    - 32-bit Windows: `C:\Program Files\Steam`
+    - macOS: `~/Library/Application Support/Steam/`
+    - Linux: Typically `~/.local/share/Steam`
+2. (*If multiple Steam users have logged in on your PC*) Find out your Steam user ID (*steamID64* or *steamID3*). ([Source](https://www.pcgamingwiki.com/wiki/Glossary:Game_data#User_ID))
+    1. On the Steam client, click on your profile at the top right corner.
+    2. Select "Account Details"
+    3. Your *steamID64* is directly under your account name
+    4. Typically you are looking for your *steamID64*, but for some (including me) it is *steamID3 instead*. In that case, use [STEAMID I/O](https://steamid.io/) and search with your steamID64.
+3. The saves are stored in this folder: `<STEAM-FOLDER>/userdata/<USER-ID>/586750/remote`, where `<STEAM-FOLDER>` is your Steam folder and `<USER-ID>` is your Steam user ID. If only one Steam user has logged in to your PC, then there will only be one `<USER-ID>` folder in `userdata`.
+4. (*Optional*) Store `<STEAM-FOLDER>/userdata/<USER-ID>/586750/remote` as a shortcut somewhere on your PC for easier access.
 
-Note that font colors are not visible in Github. Use any editor with markdown support instead if you want to read it locally, for example VS Code
+*Note: 586750 is the game ID for Sonny (2017)*
+
+### Installing the custom saves
+
+After picking the save file you wanna play:
+
+1. Copy and paste the custom save into the save folder.
+2. Rename the save file to "SN1_", "SN2_" or "SN3_", this corresponds to each save slot. If necessary, delete or rename the old saves.
+
+The custom saves can be uninstalled by simply deleting them, which can also be done from the in-game menu.
+
+### How to use the save converter
+
+*SAVE CONVERTER IS NOT FINISHED!*
+
+You need to have python installed to use the save converter. To check if you have it installed, open up a terminal and execute this command: `python --version`. If no version number pops up, python is not installed. In that case, download the latest version [here](https://www.python.org/) (Windows & macOS). Python should be pre-installed on most Linux distros, if not then use the distros package manager. 
+
+1. Place the save file (ex. `SN1_Spartan`) you want to convert in the same folder as the python script `save_reader.py`
+2. Open the script with any editor and change the value of `SAVENAME` to the name of the save file you want to convert (ex. `FILENAME = "SN1_Spartan"`). Do not forget the quotation symbols! (`""`)
+3. Save the script. Then, run the it using the terminal: `python save_reader.py`.
+4. The save file's contents is written to a new file, `Sonny_2017_Save.txt`, in a more "readable" format.
+
+*Note: Converter only goes one way, the other way will be added in a future update*
+
+## (Bonus) Hex colors
 
 | Attribute | HEX code |
 | :-------- | :------- |

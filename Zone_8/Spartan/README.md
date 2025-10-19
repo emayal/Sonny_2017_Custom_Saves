@@ -4,6 +4,8 @@
 
 [**Spartan**](https://sonny.wiki.gg/wiki/Spartan) in the wiki
 
+## Saves
+
 1 save is provided:
 
 - [SN1_SPARTAN](./SN1_Spartan): <font color="#ff4242">**Physical**</font> start
