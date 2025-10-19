@@ -1,5 +1,7 @@
 # Spartan
 
+<-- [Go back](../README.md)
+
 [**Spartan**](https://sonny.wiki.gg/wiki/Spartan) in the wiki
 
 ### Stats
