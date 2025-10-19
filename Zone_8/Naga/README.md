@@ -4,7 +4,7 @@
 
 [**Naga**](https://sonny.wiki.gg/wiki/Naga) in the wiki
 
-### Stats
+## Stats
 
 | Normal stat | Mod |
 | :---------- | --: |
@@ -22,7 +22,7 @@
 
 The **Naga** has higher <font color="#52de80">**Vitality**</font>, but lower <font color="#f07e7e">**Power**</font>, <font color="#56abe1">**Defense**</font> and <font color="#f1c45b">**Speed**</font>. Due to overall stats being on average lower, it might become difficult.
 
-### Abilities
+## Abilities
 
 | Ability | Notes |
 | :------ | :---- |

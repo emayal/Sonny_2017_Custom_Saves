@@ -4,7 +4,13 @@
 
 [**Spartan**](https://sonny.wiki.gg/wiki/Spartan) in the wiki
 
-### Stats
+1 save is provided:
+
+- [SN1_SPARTAN](./SN1_Spartan): <font color="#ff4242">**Physical**</font> start
+
+If you want to be thematic, pick <font color="#ffba26">**Fire**</font> and <font color="#16cc54">**Nature**</font> as 2nd and 3rd strain. Order does not matter.
+
+## Stats
 
 | Normal stat | Mod |
 | :---------- | --: |
@@ -24,7 +30,7 @@ The **Spartan** has higher <font color="#f07e7e">**Power**</font>, <font color="
 
 As an enemy, **Spartan** also has 100% <font color="#ff4242">**Physical Defense**</font>. As the player, this special stat is set to 0% due to how the game was coded. This can make a playthrough more difficult than expected.
 
-### Abilities
+## Abilities
 
 | Ability | Notes |
 | :------ | :---- |
@@ -47,11 +53,3 @@ Wiki links to
 - [<font color="#ff4242">**Iron Slam**</font>](https://sonny.wiki.gg/wiki/Iron_Slam)
 - [<font color="#16cc54">**Stone Form**</font>](https://sonny.wiki.gg/wiki/Stone_Form)
 - [<font color="#ffba26">**Sear**</font>](https://sonny.wiki.gg/wiki/Sear)
-
-### Saves
-
-1 save is provided:
-
-- [SN1_SPARTAN](./SN1_Spartan): <font color="#ff4242">**Physical**</font> start
-
-If you want to be thematic, pick <font color="#ffba26">**Fire**</font> and <font color="#16cc54">**Nature**</font> as 2nd and 3rd strain. Order does not matter.
