@@ -2,6 +2,14 @@
 
 - [Zone 8](./Zone_8/README.md)
 
+## Instructions
+
+Place these custom save files in the save folder, and rename them to "SN1_", "SN2_" or "SN3_".
+
+Sonny has been added as a party member, because you need to have them active in order to pass Vendara 1 in Zone 1. They do not have any abilities coded as an A.I. unit, so they are basically just a useless meat shield outside of this stage.
+
+save_reader.py is not complete!!!
+
 ## Hex colors
 
 Note that font colors are not visible in Github. Use any editor with markdown support instead if you want to read it locally, for example VS Code
