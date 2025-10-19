@@ -3,13 +3,19 @@
 - [Alternative starting strain](./Alternative_Starting_Strain/README.md)
 - [Zone 8](./Zone_8/README.md)
 
-## Important stuff!
+## Intro
 
 *Note: My readmes use font colors which are not visible in Github. Use any editor with markdown support instead if you want to read it locally, for example VS Code.*
 
-This repository contains all my custom save files, which will work on the vanilla base game of Sonny (2017). A save converter in the form of a python script is also included, which will convert it to a more "readable" format. 
+This repository contains all my custom save files, which will work on the vanilla base game of Sonny (2017). These save files will let you have different types of starts that is normally not possible, for example starting with the <font color="#ffba26">**Fire**</font> strain or playing as a **Spartan** from Zone 8. I hope these saves allow for some replayability :smile:.
 
-- As far as I can tell, these custom saves will only work with the Steam version of the game. The iOS and Itch version uses completely different save formats, and I have no clue how the Android saves work (plus, Android version is dead :skull:)
+A save converter in the form of a python script is also included, which will convert it to a more "readable" format. It is not complete!
+
+## Important stuff!
+
+There are unfortunately certain restrictions when playing with my custom save files, mostly due to how the game was coded. There is only so much you can do with only save editing :disappointed:. Just keep in mind the following:
+
+- As far as I can tell, these custom saves will only work with the Steam version of the game. The iOS and Itch version uses completely different save formats, and I have no clue how the Android saves work (plus, Android version is pretty much dead :skull:)
 - In most saves you get different starter abilities, for unit saves it will be their own abilities. You will lose them forever if you remove them or respec, so be careful! Making backups of the save can be a good idea as a replacement for respec.
 - I disabled most tutorials in the game, mostly to make the above issue less painful.
 
@@ -70,6 +76,8 @@ You need to have python installed to use the save converter. To check if you hav
 *Note: Converter only goes one way, the other way will be added in a future update*
 
 ## (Bonus) Hex colors
+
+:rainbow: HEX-codes of colors I used in my readmes.
 
 | Attribute | HEX code |
 | :-------- | :------- |
