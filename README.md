@@ -1,5 +1,6 @@
 # Sonny (2017) Custom Saves
 
+- [Alternative starting strain](./Alternative_Starting_Strain/README.md)
 - [Zone 8](./Zone_8/README.md)
 
 ## Important stuff!
@@ -11,6 +12,8 @@ This repository contains all my custom save files, which will work on the vanill
 - As far as I can tell, these custom saves will only work with the Steam version of the game. The iOS and Itch version uses completely different save formats, and I have no clue how the Android saves work (plus, Android version is dead :skull:)
 - In most saves you get different starter abilities, for unit saves it will be their own abilities. You will lose them forever if you remove them or respec, so be careful! Making backups of the save can be a good idea as a replacement for respec.
 - I disabled most tutorials in the game, mostly to make the above issue less painful.
+
+### About alternat
 
 ### About unit saves specifically (Zone 8)
 
@@ -35,9 +38,9 @@ Clone this repo, or use the "Download ZIP" option from the green "Code" button.
     1. On the Steam client, click on your profile at the top right corner.
     2. Select "Account Details"
     3. Your *steamID64* is directly under your account name
-    4. Typically you are looking for your *steamID64*, but for some (including me) it is *steamID3 instead*. In that case, use [STEAMID I/O](https://steamid.io/) and search with your steamID64.
+    4. Typically you are looking for your *steamID64*, but for some (including me) it is *steamID3* instead. In that case, use [STEAMID I/O](https://steamid.io/) and search with your steamID64.
 3. The saves are stored in this folder: `<STEAM-FOLDER>/userdata/<USER-ID>/586750/remote`, where `<STEAM-FOLDER>` is your Steam folder and `<USER-ID>` is your Steam user ID. If only one Steam user has logged in to your PC, then there will only be one `<USER-ID>` folder in `userdata`.
-4. (*Optional*) Store `<STEAM-FOLDER>/userdata/<USER-ID>/586750/remote` as a shortcut somewhere on your PC for easier access.
+4. (*Optional*) Save `<STEAM-FOLDER>/userdata/<USER-ID>/586750/remote` as a shortcut somewhere on your PC for easier access.
 
 *Note: 586750 is the game ID for Sonny (2017)*
 
