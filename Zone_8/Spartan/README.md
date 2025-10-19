@@ -50,6 +50,6 @@ Wiki links to
 
 1 save is provided:
 
-- <font color="#ff4242">**Physical**</font> start
+- [SN1_SPARTAN](./SN1_Spartan): <font color="#ff4242">**Physical**</font> start
 
 If you want to be thematic, pick <font color="#ffba26">**Fire**</font> and <font color="#16cc54">**Nature**</font> as 2nd and 3rd strain. Order does not matter.
